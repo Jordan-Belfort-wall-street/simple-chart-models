@@ -1,5 +1,107 @@
 body {
-    background-color: whitesmoke;
+    background-color: teal;
     margin: 0px;
     padding: 0px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color: white;
+}
+
+
+.charts {
+    display: flex;
+    background-image: url("https://www.mindtools.com/media/Diagrams/Charts-and-Graphs-3.jpg");
+    background-position: center;
+    background-size: 100%;
+    margin: 20px 20px;
+    height: 700px;
+    align-items: flex-end;
+    
+}
+
+.charts div {
+    background-color: rgb(9, 128, 158);
+    margin-right: 10px;
+    height: 40px;
+    width: 47.5px;
+    transition: 1s;
+    margin-bottom: 130px;
+    border-radius: 5px;
+    
+}
+
+.charts div:nth-of-type(1):hover{
+    height: 280px;
+    transition: 1s;
+    background-color: dodgerblue;
+}
+
+.charts div:nth-of-type(2):hover{
+    height: 378px;
+    transition: 1s;
+    background-color: dodgerblue;
+}
+
+.charts div:nth-of-type(3):hover{
+    height: 420px;
+    transition: 1s;
+    background-color: dodgerblue;
+}
+
+.charts div:nth-of-type(4):hover{
+    height: 359px;
+    transition: 1s;
+    background-color: dodgerblue;
+}
+
+.charts div:nth-of-type(5):hover{
+    height: 397px;
+    transition: 1s;
+    background-color: dodgerblue;
+}
+
+.charts div:nth-of-type(6):hover{
+    height: 300px;
+    transition: 1s;
+    background-color: dodgerblue;
+}
+
+.charts div:nth-of-type(7):hover{
+    height: 260px;
+    transition: 1s;
+    background-color: dodgerblue;
+}
+
+.charts div:nth-of-type(8):hover{
+    height: 318px;
+    transition: 1s;
+    background-color: dodgerblue;
+}
+
+.charts div:nth-of-type(9):hover{
+    height: 397px;
+    transition: 1s;
+    background-color: dodgerblue;
+}
+
+.charts div:nth-of-type(10):hover{
+    height: 435px;
+    transition: 1s;
+    background-color: dodgerblue;
+}
+
+.charts div:nth-of-type(11):hover{
+    height: 377px;
+    transition: 1s;
+    background-color: dodgerblue;
+}
+
+.charts div:nth-of-type(12):hover{
+    height: 238px;
+    transition: 1s;
+    background-color: dodgerblue;
 }
